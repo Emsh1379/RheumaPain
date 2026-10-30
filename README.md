@@ -92,13 +92,14 @@ RheumaPain/
 │   ├── s07_compare_batchB.py Full sample vs batch-B comparison table
 │   ├── s08_extra.py         E8 learning curve, E9 subject identification, E10 minimum detectable effect
 │   ├── s09_publication_figures.py  Article Figures 1–4 and A.1 (600 dpi TIFF/PNG + vector PDF)
+│   ├── s10_graphical_abstract.py   Graphical abstract
 │   └── run_all.py           Runs audit → features → main experiments
 ├── results/                 Every result table used in the paper (CSV)
 │   ├── RESULTS.md           Narrative of all experiments with numbers and provenance
 │   ├── Supplementary_Data_S1_results.xlsx   Supplementary Data S1 (complete results)
 │   ├── features_w{10,30,60}.csv         Extracted window features (rerun experiments without raw data)
 │   └── batchB/              Sensitivity analysis without the 7 batch-A children
-├── figures/                 Article figures: Figure1–4 and FigureA1 (600 dpi PNG)
+├── figures/                 Article figures: Figure1–4, FigureA1 and the graphical abstract (600 dpi PNG)
 ├── data/
 │   ├── manifest.json        All 547 files of RheumaPain v3 with download URL and SHA-256
 │   ├── download_data.py     Downloads the dataset and verifies every checksum
@@ -140,6 +141,7 @@ RheumaPain/
 | Fig. 3 | [`Figure3.png`](figures/Figure3.png) | Window-level macro-F1 of the random forest and the 1D-CNN under a random window split and under leave-one-child-out evaluation. |
 | Fig. 4 | [`Figure4.png`](figures/Figure4.png) | LOSO AUC vs number of children in the training set (mean and range over 10 draws). |
 | Fig. A.1 | [`FigureA1.png`](figures/FigureA1.png) | Rest-to-exercise change in movement variability and mean heart rate vs change in pain per child; triangles = batch A. |
+| Graphical abstract | [`GraphicalAbstract.png`](figures/GraphicalAbstract.png) | Study summary (drawn by `src/s10_graphical_abstract.py`). |
 
 `python src/s09_publication_figures.py results <out_dir>` redraws all five figures from the saved tables.
 

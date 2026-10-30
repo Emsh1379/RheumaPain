@@ -3,7 +3,7 @@
 Article: *Wrist-worn biosignals do not generalise for pain estimation in children with rheumatic disease: a leakage-aware benchmark and audit of a public dataset* (International Journal of Medical Informatics, submitted).
 
 
-Study type: evaluation (benchmark) of prediction models on an existing public dataset; no model is proposed for clinical use. Locations refer to the anonymised manuscript (sections, tables, figures), Appendix A and Supplementary Data S1. Reporting guideline: Collins GS et al., BMJ 2024;385:e078378.
+Study type: evaluation (benchmark) of prediction models on an existing public dataset; no model is proposed for clinical use. Locations refer to the manuscript (sections, tables, figures), Appendix A and Supplementary Data S1. Reporting guideline: Collins GS et al., BMJ 2024;385:e078378.
 
 Status: **Y** reported, **P** partly reported, **NA** not applicable.
 
