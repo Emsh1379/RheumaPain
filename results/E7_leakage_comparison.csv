@@ -1,0 +1,9 @@
+model,task,split,window_F1_macro
+Random-forest features,binary,Random window split,0.9082418405564472
+1D-CNN raw signals,binary,Random window split,0.8685106652319767
+Random-forest features,binary,Leave-one-child-out,0.5929267002236849
+1D-CNN raw signals,binary,Leave-one-child-out,0.5742446982783402
+Random-forest features,6-class,Random window split,0.8483718738159728
+1D-CNN raw signals,6-class,Random window split,0.5995076783653804
+Random-forest features,6-class,Leave-one-child-out,0.240772301950634
+1D-CNN raw signals,6-class,Leave-one-child-out,0.1918785777837936

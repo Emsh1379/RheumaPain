@@ -1,0 +1,30 @@
+,full (n=40),batch B (n=33)
+AUC pain>=2: Phase only LR,0.708,0.747
+AUC pain>=2: Demo+Phase LR,0.746,0.796
+AUC pain>=2: S+P RF,0.61,0.669
+AUC pain>=2: Sz+P RF,0.704,0.722
+AUC pain>=2: Scal+P RF,0.711,0.714
+MAE: Phase only Ridge,1.019,0.945
+MAE: S+P RF,1.195,1.061
+MAE: Sz+P Ridge,1.003,0.939
+MAE: Scal+P RF,1.01,0.981
+dAUC vs phase: S+P RF,"-0.098 [-0.155, -0.042]","-0.078 [-0.127, -0.021]"
+dAUC vs phase: Scal+P RF,"+0.003 [-0.036, +0.045]","-0.032 [-0.070, +0.003]"
+within-phase AUC (rest): Scal+P RF,0.509,0.47
+within-phase AUC (exercise): Scal+P RF,0.516,0.242
+RF F1 6-class: Random 5-fold (windows),0.848,0.846
+RF F1 binary: Random 5-fold (windows),0.908,0.899
+RF F1 6-class: LOSO (subjects),0.241,0.26
+RF F1 binary: LOSO (subjects),0.593,0.579
+perm p: binary S+P RF,0.98,0.98
+perm p: binary S+P LR,0.99,0.614
+perm p: binary Scal+P RF,0.287,0.772
+perm p: regression S+P RF,1.0,0.99
+perm p: regression Scal+P RF,0.198,0.851
+CNN F1 random5_binary,0.869,0.851
+CNN F1 random5_6class,0.6,0.599
+CNN F1 loso_binary,0.574,0.597
+CNN seg AUC loso_binary,0.529,0.632
+CNN dAUC vs phase loso_binary,"-0.180 [-0.304, -0.062]","-0.115 [-0.222, +0.004]"
+CNN F1 loso_binary_nophase,0.499,0.546
+CNN F1 loso_6class,0.192,0.234

@@ -1,0 +1,2 @@
+n_children,chance_accuracy,accuracy,balanced_accuracy,median_eta2_between_children,share_features_eta2_over_0.5
+40,0.025,0.8968325791855204,0.8569362056942745,0.32027383178269675,0.38461538461538464

@@ -1,0 +1,22 @@
+name: check
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  reproduce-figures:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies (without PyTorch)
+        run: pip install numpy pandas scipy scikit-learn statsmodels matplotlib openpyxl joblib requests pillow
+      - name: Compile all scripts
+        run: python -m py_compile src/*.py data/*.py
+      - name: Check dataset manifest
+        run: python -c "import json; m=json.load(open('data/manifest.json')); assert len(m)==547 and all(e['sha256'] for e in m); print(len(m), 'files')"
+      - name: Redraw the publication figures from the saved result tables
+        run: cd src && python s09_publication_figures.py ../results /tmp/figures && ls /tmp/figures

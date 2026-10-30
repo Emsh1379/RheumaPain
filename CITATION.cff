@@ -1,0 +1,60 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the article and this archive."
+title: "RheumaPain leakage-aware benchmark: analysis code and results"
+type: software
+authors:
+  - family-names: "Savabieh"
+    given-names: "Shekoofeh"
+    affiliation: "Children Growth Disorder Research Center, Shahid Sadoughi University of Medical Sciences, Yazd, Iran"
+    orcid: "https://orcid.org/0009-0000-4973-1793"
+  - family-names: "Sharifi"
+    given-names: "Mohammad Emad"
+    affiliation: "Mother and Newborn Health Research Center, Shahid Sadoughi University of Medical Sciences, Yazd, Iran"
+    orcid: "https://orcid.org/0000-0003-2846-6964"
+    email: "emad.sharifi2001@gmail.com"
+version: "1.0.0"
+license: MIT
+repository-code: "https://github.com/Emsh1379/RheumaPain"
+keywords:
+  - pain assessment
+  - wearable sensors
+  - data leakage
+  - pediatric rheumatology
+  - machine learning
+  - medical informatics
+abstract: >-
+  Code, extracted features and result tables for a leakage-aware benchmark and audit of the
+  RheumaPain dataset (wrist-worn Empatica E4 biosignals, children with rheumatic disease).
+  Under leave-one-subject-out evaluation no feature model or 1D-CNN improved on the
+  exercise/rest context alone, while random window splits inflated performance through
+  subject identification.
+preferred-citation:
+  type: article
+  title: "Wrist-worn biosignals do not generalise for pain estimation in children with rheumatic disease: a leakage-aware benchmark and audit of a public dataset"
+  authors:
+    - family-names: "Savabieh"
+      given-names: "Shekoofeh"
+    - family-names: "Sharifi"
+      given-names: "Mohammad Emad"
+  journal: "International Journal of Medical Informatics"
+  status: submitted
+references:
+  - type: dataset
+    title: "RheumaPain Dataset, version 3"
+    authors:
+      - family-names: "Yıldırım"
+        given-names: "Elif"
+      - family-names: "Patlar Akbulut"
+        given-names: "Fatma"
+    doi: "10.17632/y6pgjdj22f.3"
+  - type: article
+    title: "RheumaPain: a multimodal biosignal dataset for objective pain assessment in pediatric rheumatic diseases"
+    authors:
+      - family-names: "Yıldırım"
+        given-names: "Elif"
+      - family-names: "Patlar Akbulut"
+        given-names: "Fatma"
+    journal: "Data in Brief"
+    volume: 68
+    year: 2026
+    doi: "10.1016/j.dib.2026.113131"

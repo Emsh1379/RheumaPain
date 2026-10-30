@@ -1,0 +1,143 @@
+model,k_train_children,rep,AUC
+Rest-calibrated signals + phase (RF),5,0,0.49984737484737485
+Rest-calibrated signals + phase (RF),5,1,0.5976800976800977
+Rest-calibrated signals + phase (RF),5,2,0.623550061050061
+Rest-calibrated signals + phase (RF),5,3,0.6410256410256411
+Rest-calibrated signals + phase (RF),5,4,0.6278998778998779
+Rest-calibrated signals + phase (RF),5,5,0.5086614774114774
+Rest-calibrated signals + phase (RF),5,6,0.5669261294261294
+Rest-calibrated signals + phase (RF),5,7,0.613476800976801
+Rest-calibrated signals + phase (RF),5,8,0.5702075702075702
+Rest-calibrated signals + phase (RF),5,9,0.5977564102564104
+Rest-calibrated signals + phase (RF),10,0,0.7184065934065935
+Rest-calibrated signals + phase (RF),10,1,0.5676892551892552
+Rest-calibrated signals + phase (RF),10,2,0.6829212454212454
+Rest-calibrated signals + phase (RF),10,3,0.690552503052503
+Rest-calibrated signals + phase (RF),10,4,0.688949938949939
+Rest-calibrated signals + phase (RF),10,5,0.6958180708180709
+Rest-calibrated signals + phase (RF),10,6,0.643543956043956
+Rest-calibrated signals + phase (RF),10,7,0.7561050061050061
+Rest-calibrated signals + phase (RF),10,8,0.6157661782661782
+Rest-calibrated signals + phase (RF),10,9,0.6695665445665445
+Rest-calibrated signals + phase (RF),15,0,0.6980311355311355
+Rest-calibrated signals + phase (RF),15,1,0.7023809523809523
+Rest-calibrated signals + phase (RF),15,2,0.6842948717948718
+Rest-calibrated signals + phase (RF),15,3,0.728403540903541
+Rest-calibrated signals + phase (RF),15,4,0.6910103785103785
+Rest-calibrated signals + phase (RF),15,5,0.6543803418803418
+Rest-calibrated signals + phase (RF),15,6,0.721916971916972
+Rest-calibrated signals + phase (RF),15,7,0.6877289377289377
+Rest-calibrated signals + phase (RF),15,8,0.6945970695970696
+Rest-calibrated signals + phase (RF),15,9,0.7155067155067156
+Rest-calibrated signals + phase (RF),20,0,0.6646825396825398
+Rest-calibrated signals + phase (RF),20,1,0.688949938949939
+Rest-calibrated signals + phase (RF),20,2,0.6730006105006106
+Rest-calibrated signals + phase (RF),20,3,0.764041514041514
+Rest-calibrated signals + phase (RF),20,4,0.7226800976800977
+Rest-calibrated signals + phase (RF),20,5,0.6993284493284494
+Rest-calibrated signals + phase (RF),20,6,0.7001678876678876
+Rest-calibrated signals + phase (RF),20,7,0.678342490842491
+Rest-calibrated signals + phase (RF),20,8,0.7217643467643468
+Rest-calibrated signals + phase (RF),20,9,0.6929181929181929
+Rest-calibrated signals + phase (RF),25,0,0.734508547008547
+Rest-calibrated signals + phase (RF),25,1,0.6984126984126985
+Rest-calibrated signals + phase (RF),25,2,0.7113095238095238
+Rest-calibrated signals + phase (RF),25,3,0.6829212454212454
+Rest-calibrated signals + phase (RF),25,4,0.7239774114774116
+Rest-calibrated signals + phase (RF),25,5,0.7384004884004883
+Rest-calibrated signals + phase (RF),25,6,0.7455738705738706
+Rest-calibrated signals + phase (RF),25,7,0.7257326007326007
+Rest-calibrated signals + phase (RF),25,8,0.7025335775335775
+Rest-calibrated signals + phase (RF),25,9,0.7056623931623932
+Rest-calibrated signals + phase (RF),30,0,0.7008547008547008
+Rest-calibrated signals + phase (RF),30,1,0.6958180708180709
+Rest-calibrated signals + phase (RF),30,2,0.7138278388278388
+Rest-calibrated signals + phase (RF),30,3,0.6724664224664225
+Rest-calibrated signals + phase (RF),30,4,0.7487026862026862
+Rest-calibrated signals + phase (RF),30,5,0.697039072039072
+Rest-calibrated signals + phase (RF),30,6,0.7189407814407814
+Rest-calibrated signals + phase (RF),30,7,0.7131410256410257
+Rest-calibrated signals + phase (RF),30,8,0.6884157509157509
+Rest-calibrated signals + phase (RF),30,9,0.6939102564102564
+Rest-calibrated signals + phase (RF),35,0,0.6946733821733823
+Rest-calibrated signals + phase (RF),35,1,0.7032203907203908
+Rest-calibrated signals + phase (RF),35,2,0.7047466422466422
+Rest-calibrated signals + phase (RF),35,3,0.7097832722832724
+Rest-calibrated signals + phase (RF),35,4,0.7070360195360195
+Rest-calibrated signals + phase (RF),35,5,0.72748778998779
+Rest-calibrated signals + phase (RF),35,6,0.7002442002442003
+Rest-calibrated signals + phase (RF),35,7,0.7292429792429792
+Rest-calibrated signals + phase (RF),35,8,0.6931471306471307
+Rest-calibrated signals + phase (RF),35,9,0.7016178266178267
+Rest-calibrated signals + phase (RF),39,0,0.7059676434676435
+Signals + phase (LR),5,0,0.5012210012210012
+Signals + phase (LR),5,1,0.582112332112332
+Signals + phase (LR),5,2,0.6066086691086691
+Signals + phase (LR),5,3,0.5769993894993896
+Signals + phase (LR),5,4,0.596535409035409
+Signals + phase (LR),5,5,0.5185057997557997
+Signals + phase (LR),5,6,0.5462454212454212
+Signals + phase (LR),5,7,0.593482905982906
+Signals + phase (LR),5,8,0.5502136752136753
+Signals + phase (LR),5,9,0.5656288156288156
+Signals + phase (LR),10,0,0.5844780219780221
+Signals + phase (LR),10,1,0.5899725274725276
+Signals + phase (LR),10,2,0.6346916971916972
+Signals + phase (LR),10,3,0.6192002442002441
+Signals + phase (LR),10,4,0.7012362637362638
+Signals + phase (LR),10,5,0.6043956043956045
+Signals + phase (LR),10,6,0.59745115995116
+Signals + phase (LR),10,7,0.7225274725274725
+Signals + phase (LR),10,8,0.6531593406593407
+Signals + phase (LR),10,9,0.5990537240537239
+Signals + phase (LR),15,0,0.5393009768009768
+Signals + phase (LR),15,1,0.6362179487179487
+Signals + phase (LR),15,2,0.6105006105006104
+Signals + phase (LR),15,3,0.6678876678876678
+Signals + phase (LR),15,4,0.6830738705738705
+Signals + phase (LR),15,5,0.5570818070818071
+Signals + phase (LR),15,6,0.5827228327228328
+Signals + phase (LR),15,7,0.6775793650793651
+Signals + phase (LR),15,8,0.6337759462759462
+Signals + phase (LR),15,9,0.5554792429792429
+Signals + phase (LR),20,0,0.5825702075702076
+Signals + phase (LR),20,1,0.641025641025641
+Signals + phase (LR),20,2,0.6304945054945054
+Signals + phase (LR),20,3,0.6599511599511599
+Signals + phase (LR),20,4,0.6161477411477412
+Signals + phase (LR),20,5,0.6788766788766789
+Signals + phase (LR),20,6,0.6569749694749695
+Signals + phase (LR),20,7,0.5640262515262515
+Signals + phase (LR),20,8,0.6443070818070818
+Signals + phase (LR),20,9,0.592948717948718
+Signals + phase (LR),25,0,0.6804029304029304
+Signals + phase (LR),25,1,0.6647588522588522
+Signals + phase (LR),25,2,0.5769993894993894
+Signals + phase (LR),25,3,0.6376678876678876
+Signals + phase (LR),25,4,0.6768162393162394
+Signals + phase (LR),25,5,0.6765873015873016
+Signals + phase (LR),25,6,0.5979090354090354
+Signals + phase (LR),25,7,0.6695665445665445
+Signals + phase (LR),25,8,0.6253815628815629
+Signals + phase (LR),25,9,0.5753205128205128
+Signals + phase (LR),30,0,0.6093559218559218
+Signals + phase (LR),30,1,0.6223290598290598
+Signals + phase (LR),30,2,0.6724664224664225
+Signals + phase (LR),30,3,0.6193528693528694
+Signals + phase (LR),30,4,0.6260683760683761
+Signals + phase (LR),30,5,0.6647588522588522
+Signals + phase (LR),30,6,0.6114163614163614
+Signals + phase (LR),30,7,0.6448412698412699
+Signals + phase (LR),30,8,0.6092032967032966
+Signals + phase (LR),30,9,0.6626221001221002
+Signals + phase (LR),35,0,0.6140873015873016
+Signals + phase (LR),35,1,0.6428571428571428
+Signals + phase (LR),35,2,0.660866910866911
+Signals + phase (LR),35,3,0.6333180708180709
+Signals + phase (LR),35,4,0.631486568986569
+Signals + phase (LR),35,5,0.6514041514041514
+Signals + phase (LR),35,6,0.650030525030525
+Signals + phase (LR),35,7,0.6501068376068376
+Signals + phase (LR),35,8,0.624084249084249
+Signals + phase (LR),35,9,0.6349206349206349
+Signals + phase (LR),39,0,0.6358363858363859

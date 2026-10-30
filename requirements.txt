@@ -1,0 +1,12 @@
+# Versions used for the paper: scikit-learn 1.6.1 (Kaggle) and 1.9.1 (local), PyTorch 2.11.
+numpy
+pandas
+scipy
+scikit-learn>=1.6
+statsmodels
+matplotlib
+openpyxl
+joblib
+requests
+pillow
+torch>=2.0        # only for src/s05_deep.py (E7 1D-CNN)
