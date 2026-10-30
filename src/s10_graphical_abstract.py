@@ -1,4 +1,4 @@
-"""Graphical abstract (13 x 5 cm, 600 dpi). Numbers are taken from results/E2_pain.csv, E7_deep.csv and
+"""Graphical abstract (13 x 5 cm, 600 dpi). Values are typed in from results/E2_pain.csv, E7_deep.csv and
 E7_leakage_comparison.csv. Usage: python s10_graphical_abstract.py <output_path_without_extension>"""
 import io, sys
 import matplotlib; matplotlib.use("Agg")
