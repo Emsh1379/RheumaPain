@@ -104,7 +104,9 @@ RheumaPain/
 │   ├── manifest.json        All 547 files of RheumaPain v3 with download URL and SHA-256
 │   ├── download_data.py     Downloads the dataset and verifies every checksum
 │   └── README.md            How to obtain and verify the dataset
+├── tools/                   Submission-package builder, re-run comparison, word count
 ├── docs/
+│   ├── HANDOFF.md           Project state and how to continue the work
 │   ├── ANALYSIS_PLAN.md     Analysis plan written before the experiments
 │   ├── TRIPOD_AI_checklist.md   Reporting checklist, item by item
 │   ├── data_audit.md        Audit findings and cleaning rules

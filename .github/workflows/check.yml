@@ -15,7 +15,7 @@ jobs:
       - name: Install dependencies (without PyTorch)
         run: pip install numpy pandas scipy scikit-learn statsmodels matplotlib openpyxl joblib requests pillow
       - name: Compile all scripts
-        run: python -m py_compile src/*.py data/*.py
+        run: python -m py_compile src/*.py data/*.py tools/*.py
       - name: Draw the graphical abstract
         run: python src/s10_graphical_abstract.py /tmp/graphical_abstract
       - name: Check dataset manifest
